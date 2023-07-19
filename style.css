@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    background-color: rgb(255, 66, 66);
+    height: 60px;
+}
+
+.Phone{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+
+.Phone:hover{
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+}
+
+.Phone:active{
+    color: red;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.HeaderTitle{  
+    position: absolute;
+    margin-top: 0;
+    padding: 10px;
+    text-align: left;
+    display: inline;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
